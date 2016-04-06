@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>830A45C9-8EF6-4F6F-9AD8-76D84E0EC7B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DHZ_LIBRARY</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF91DE57A41BDB6DAFB5ED69616A57A1F2E6AA7E</key>
+		<string>https://github.com/jianin/iOS_LIBRARY.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DHZ_LIBRARY.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF91DE57A41BDB6DAFB5ED69616A57A1F2E6AA7E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jianin/iOS_LIBRARY.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF91DE57A41BDB6DAFB5ED69616A57A1F2E6AA7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF91DE57A41BDB6DAFB5ED69616A57A1F2E6AA7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_LIBRARY</string>
+		</dict>
+	</array>
+</dict>
+</plist>
