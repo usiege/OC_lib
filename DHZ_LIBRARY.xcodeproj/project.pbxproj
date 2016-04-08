@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		622E4E621BABB98A00FEB805 /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E4E5D1BABB98A00FEB805 /* RedPaperReachability.m */; };
-		622E4E631BABB98A00FEB805 /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E4E5F1BABB98A00FEB805 /* RedPaperRequestOperation.m */; };
-		622E4E641BABB98A00FEB805 /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 622E4E611BABB98A00FEB805 /* RedPaperRequestQueue.m */; };
 		62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */; };
 		62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */; };
 		62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F821CB3E6DF001E2B8A /* OperationViewController.m */; };
@@ -22,6 +19,10 @@
 		62677FB41CB4F68A001E2B8A /* ChooseFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FAF1CB4F68A001E2B8A /* ChooseFloorView.m */; };
 		62677FB51CB4F68A001E2B8A /* InfoBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FB11CB4F68A001E2B8A /* InfoBoxView.m */; };
 		62677FB61CB4F68A001E2B8A /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FB31CB4F68A001E2B8A /* UserInfoView.m */; };
+		626780021CB78272001E2B8A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 626780011CB78272001E2B8A /* README.md */; };
+		6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780051CB782AC001E2B8A /* RedPaperReachability.m */; };
+		6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */; };
+		6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */; };
 		626CA3641A5144D8005DEA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3631A5144D8005DEA64 /* main.m */; };
 		626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3661A5144D8005DEA64 /* AppDelegate.m */; };
 		626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */; };
@@ -41,12 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		622E4E5C1BABB98A00FEB805 /* RedPaperReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperReachability.h; sourceTree = "<group>"; };
-		622E4E5D1BABB98A00FEB805 /* RedPaperReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperReachability.m; sourceTree = "<group>"; };
-		622E4E5E1BABB98A00FEB805 /* RedPaperRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestOperation.h; sourceTree = "<group>"; };
-		622E4E5F1BABB98A00FEB805 /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
-		622E4E601BABB98A00FEB805 /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
-		622E4E611BABB98A00FEB805 /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
 		6251CBA71AA7042400AD5CEC /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		62677F7A1CA693DE001E2B8A /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
@@ -70,6 +65,13 @@
 		62677FB11CB4F68A001E2B8A /* InfoBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxView.m; sourceTree = "<group>"; };
 		62677FB21CB4F68A001E2B8A /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
 		62677FB31CB4F68A001E2B8A /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		626780011CB78272001E2B8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		626780041CB782AC001E2B8A /* RedPaperReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperReachability.h; sourceTree = "<group>"; };
+		626780051CB782AC001E2B8A /* RedPaperReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperReachability.m; sourceTree = "<group>"; };
+		626780061CB782AC001E2B8A /* RedPaperRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestOperation.h; sourceTree = "<group>"; };
+		626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
+		626780081CB782AC001E2B8A /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
+		626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
 		626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHZ_LIBRARY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3621A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA3631A5144D8005DEA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,12 +106,7 @@
 		622E4E5B1BABB98A00FEB805 /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
-				622E4E5C1BABB98A00FEB805 /* RedPaperReachability.h */,
-				622E4E5D1BABB98A00FEB805 /* RedPaperReachability.m */,
-				622E4E5E1BABB98A00FEB805 /* RedPaperRequestOperation.h */,
-				622E4E5F1BABB98A00FEB805 /* RedPaperRequestOperation.m */,
-				622E4E601BABB98A00FEB805 /* RedPaperRequestQueue.h */,
-				622E4E611BABB98A00FEB805 /* RedPaperRequestQueue.m */,
+				626780031CB782AC001E2B8A /* RedPaper */,
 				62677F811CB3E6DF001E2B8A /* OperationViewController.h */,
 				62677F821CB3E6DF001E2B8A /* OperationViewController.m */,
 			);
@@ -188,16 +185,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		62677FB71CB4F79A001E2B8A /* ThirdLib */ = {
+		626780031CB782AC001E2B8A /* RedPaper */ = {
 			isa = PBXGroup;
 			children = (
+				626780041CB782AC001E2B8A /* RedPaperReachability.h */,
+				626780051CB782AC001E2B8A /* RedPaperReachability.m */,
+				626780061CB782AC001E2B8A /* RedPaperRequestOperation.h */,
+				626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */,
+				626780081CB782AC001E2B8A /* RedPaperRequestQueue.h */,
+				626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */,
 			);
-			path = ThirdLib;
+			path = RedPaper;
 			sourceTree = "<group>";
 		};
 		626CA3551A5144D8005DEA64 = {
 			isa = PBXGroup;
 			children = (
+				626780011CB78272001E2B8A /* README.md */,
 				626CA3601A5144D8005DEA64 /* DHZ_LIBRARY */,
 				626CA3771A5144D8005DEA64 /* DHZ_LIBRARYTests */,
 				626CA35F1A5144D8005DEA64 /* Products */,
@@ -224,7 +228,6 @@
 				622E4E5B1BABB98A00FEB805 /* NSOperation */,
 				62677F8D1CB4F59F001E2B8A /* NS */,
 				62677F911CB4F59F001E2B8A /* UI */,
-				62677FB71CB4F79A001E2B8A /* ThirdLib */,
 				626CA36B1A5144D8005DEA64 /* Images.xcassets */,
 				626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */,
 				626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */,
@@ -365,16 +368,17 @@
 			files = (
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
 				62677FB51CB4F68A001E2B8A /* InfoBoxView.m in Sources */,
+				6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
 				62677FB41CB4F68A001E2B8A /* ChooseFloorView.m in Sources */,
 				62677F951CB4F59F001E2B8A /* NSString+Collection.m in Sources */,
+				6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */,
 				62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */,
-				622E4E641BABB98A00FEB805 /* RedPaperRequestQueue.m in Sources */,
+				6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */,
 				62677F991CB4F602001E2B8A /* UIColor+DHZColor.m in Sources */,
 				626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */,
-				622E4E631BABB98A00FEB805 /* RedPaperRequestOperation.m in Sources */,
 				62677FA11CB4F633001E2B8A /* DownloadCell.m in Sources */,
-				622E4E621BABB98A00FEB805 /* RedPaperReachability.m in Sources */,
+				626780021CB78272001E2B8A /* README.md in Sources */,
 				62677F9C1CB4F60D001E2B8A /* UIDevice+Hardware.m in Sources */,
 				62677F961CB4F59F001E2B8A /* UIColor+DHZCategory.m in Sources */,
 				62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */,
