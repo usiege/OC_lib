@@ -9,6 +9,8 @@
 #import "OperationViewController.h"
 
 @interface OperationViewController ()
+<UITableViewDataSource,UITableViewDelegate>
+
 
 @end
 
@@ -20,7 +22,6 @@
     
     
 }
-
 
 
 - (void)baseOperationQueue

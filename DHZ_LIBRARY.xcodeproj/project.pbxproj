@@ -23,6 +23,9 @@
 		6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780051CB782AC001E2B8A /* RedPaperReachability.m */; };
 		6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */; };
 		6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */; };
+		626780151CBAB8DE001E2B8A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 626780111CBAB8DE001E2B8A /* index.html */; };
+		626780161CBAB8DE001E2B8A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 626780121CBAB8DE001E2B8A /* index.js */; };
+		626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780141CBAB8DE001E2B8A /* JKWebView.m */; };
 		626CA3641A5144D8005DEA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3631A5144D8005DEA64 /* main.m */; };
 		626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3661A5144D8005DEA64 /* AppDelegate.m */; };
 		626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */; };
@@ -72,6 +75,10 @@
 		626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
 		626780081CB782AC001E2B8A /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
 		626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
+		626780111CBAB8DE001E2B8A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		626780121CBAB8DE001E2B8A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		626780131CBAB8DE001E2B8A /* JKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebView.h; sourceTree = "<group>"; };
+		626780141CBAB8DE001E2B8A /* JKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWebView.m; sourceTree = "<group>"; };
 		626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHZ_LIBRARY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3621A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA3631A5144D8005DEA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 		622E4E5B1BABB98A00FEB805 /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
+				6267800D1CB7B037001E2B8A /* Custom */,
 				626780031CB782AC001E2B8A /* RedPaper */,
 				62677F811CB3E6DF001E2B8A /* OperationViewController.h */,
 				62677F821CB3E6DF001E2B8A /* OperationViewController.m */,
@@ -198,6 +206,40 @@
 			path = RedPaper;
 			sourceTree = "<group>";
 		};
+		6267800D1CB7B037001E2B8A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		6267800E1CBAB8DE001E2B8A /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				6267800F1CBAB8DE001E2B8A /* JSCallOC */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		6267800F1CBAB8DE001E2B8A /* JSCallOC */ = {
+			isa = PBXGroup;
+			children = (
+				626780101CBAB8DE001E2B8A /* html */,
+				626780131CBAB8DE001E2B8A /* JKWebView.h */,
+				626780141CBAB8DE001E2B8A /* JKWebView.m */,
+			);
+			path = JSCallOC;
+			sourceTree = "<group>";
+		};
+		626780101CBAB8DE001E2B8A /* html */ = {
+			isa = PBXGroup;
+			children = (
+				626780111CBAB8DE001E2B8A /* index.html */,
+				626780121CBAB8DE001E2B8A /* index.js */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
 		626CA3551A5144D8005DEA64 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +266,7 @@
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
 				62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */,
+				6267800E1CBAB8DE001E2B8A /* WebView */,
 				62677F791CA693C5001E2B8A /* NSRunloop */,
 				622E4E5B1BABB98A00FEB805 /* NSOperation */,
 				62677F8D1CB4F59F001E2B8A /* NS */,
@@ -345,8 +388,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626780151CBAB8DE001E2B8A /* index.html in Resources */,
 				626CA36F1A5144D8005DEA64 /* LaunchScreen.xib in Resources */,
 				62677FA21CB4F633001E2B8A /* DownloadCell.xib in Resources */,
+				626780161CBAB8DE001E2B8A /* index.js in Resources */,
 				626CA36C1A5144D8005DEA64 /* Images.xcassets in Resources */,
 				62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */,
 			);
@@ -368,6 +413,7 @@
 			files = (
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
 				62677FB51CB4F68A001E2B8A /* InfoBoxView.m in Sources */,
+				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
 				6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
 				62677FB41CB4F68A001E2B8A /* ChooseFloorView.m in Sources */,
