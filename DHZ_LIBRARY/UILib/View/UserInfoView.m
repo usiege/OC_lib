@@ -7,7 +7,7 @@
 //
 
 #import "UserInfoView.h"
-#import "UIColor+Color16.h"
+#import "UIColor+DHZColor.h"
 
 @interface UserInfoView ()
 {
@@ -16,7 +16,7 @@
     
     NSMutableArray* labelArray;
 }
-@property (nonatomic,strong) UIView*      userView;
+@property (nonatomic,strong) UIView*  userView;
 
 @end
 

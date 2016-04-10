@@ -7,7 +7,7 @@
 //
 
 #import "ChooseFloorView.h"
-#import "UIColor+Color16.h"
+#import "UIColor+DHZColor.h"
 
 @interface ChooseFloorView ()<UITableViewDataSource,UITableViewDelegate>
 {

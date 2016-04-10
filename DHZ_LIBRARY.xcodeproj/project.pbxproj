@@ -10,15 +10,6 @@
 		62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */; };
 		62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */; };
 		62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F821CB3E6DF001E2B8A /* OperationViewController.m */; };
-		62677F951CB4F59F001E2B8A /* NSString+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F901CB4F59F001E2B8A /* NSString+Collection.m */; };
-		62677F961CB4F59F001E2B8A /* UIColor+DHZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F941CB4F59F001E2B8A /* UIColor+DHZCategory.m */; };
-		62677F991CB4F602001E2B8A /* UIColor+DHZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F981CB4F602001E2B8A /* UIColor+DHZColor.m */; };
-		62677F9C1CB4F60D001E2B8A /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F9B1CB4F60D001E2B8A /* UIDevice+Hardware.m */; };
-		62677FA11CB4F633001E2B8A /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F9F1CB4F633001E2B8A /* DownloadCell.m */; };
-		62677FA21CB4F633001E2B8A /* DownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62677FA01CB4F633001E2B8A /* DownloadCell.xib */; };
-		62677FB41CB4F68A001E2B8A /* ChooseFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FAF1CB4F68A001E2B8A /* ChooseFloorView.m */; };
-		62677FB51CB4F68A001E2B8A /* InfoBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FB11CB4F68A001E2B8A /* InfoBoxView.m */; };
-		62677FB61CB4F68A001E2B8A /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677FB31CB4F68A001E2B8A /* UserInfoView.m */; };
 		626780021CB78272001E2B8A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 626780011CB78272001E2B8A /* README.md */; };
 		6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780051CB782AC001E2B8A /* RedPaperReachability.m */; };
 		6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */; };
@@ -26,6 +17,17 @@
 		626780151CBAB8DE001E2B8A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 626780111CBAB8DE001E2B8A /* index.html */; };
 		626780161CBAB8DE001E2B8A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 626780121CBAB8DE001E2B8A /* index.js */; };
 		626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780141CBAB8DE001E2B8A /* JKWebView.m */; };
+		6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780191CBAB9A3001E2B8A /* WebViewController.m */; };
+		626780321CBABA09001E2B8A /* NSString+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267801E1CBABA09001E2B8A /* NSString+Collection.m */; };
+		626780331CBABA09001E2B8A /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780221CBABA09001E2B8A /* DownloadCell.m */; };
+		626780341CBABA09001E2B8A /* DownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626780231CBABA09001E2B8A /* DownloadCell.xib */; };
+		626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780261CBABA09001E2B8A /* UIColor+DHZCategory.m */; };
+		626780361CBABA09001E2B8A /* UIColor+DHZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780281CBABA09001E2B8A /* UIColor+DHZColor.m */; };
+		626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267802A1CBABA09001E2B8A /* UIDevice+Hardware.m */; };
+		626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267802D1CBABA09001E2B8A /* ChooseFloorView.m */; };
+		626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267802F1CBABA09001E2B8A /* InfoBoxView.m */; };
+		6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780311CBABA09001E2B8A /* UserInfoView.m */; };
+		6267803D1CBAC414001E2B8A /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267803C1CBAC414001E2B8A /* DownloadOperation.m */; };
 		626CA3641A5144D8005DEA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3631A5144D8005DEA64 /* main.m */; };
 		626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3661A5144D8005DEA64 /* AppDelegate.m */; };
 		626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */; };
@@ -51,23 +53,6 @@
 		62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		62677F811CB3E6DF001E2B8A /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		62677F821CB3E6DF001E2B8A /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
-		62677F8F1CB4F59F001E2B8A /* NSString+Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Collection.h"; sourceTree = "<group>"; };
-		62677F901CB4F59F001E2B8A /* NSString+Collection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Collection.m"; sourceTree = "<group>"; };
-		62677F931CB4F59F001E2B8A /* UIColor+DHZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DHZCategory.h"; sourceTree = "<group>"; };
-		62677F941CB4F59F001E2B8A /* UIColor+DHZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DHZCategory.m"; sourceTree = "<group>"; };
-		62677F971CB4F602001E2B8A /* UIColor+DHZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DHZColor.h"; sourceTree = "<group>"; };
-		62677F981CB4F602001E2B8A /* UIColor+DHZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DHZColor.m"; sourceTree = "<group>"; };
-		62677F9A1CB4F60D001E2B8A /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
-		62677F9B1CB4F60D001E2B8A /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
-		62677F9E1CB4F633001E2B8A /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
-		62677F9F1CB4F633001E2B8A /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
-		62677FA01CB4F633001E2B8A /* DownloadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadCell.xib; sourceTree = "<group>"; };
-		62677FAE1CB4F68A001E2B8A /* ChooseFloorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFloorView.h; sourceTree = "<group>"; };
-		62677FAF1CB4F68A001E2B8A /* ChooseFloorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFloorView.m; sourceTree = "<group>"; };
-		62677FB01CB4F68A001E2B8A /* InfoBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBoxView.h; sourceTree = "<group>"; };
-		62677FB11CB4F68A001E2B8A /* InfoBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxView.m; sourceTree = "<group>"; };
-		62677FB21CB4F68A001E2B8A /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
-		62677FB31CB4F68A001E2B8A /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
 		626780011CB78272001E2B8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		626780041CB782AC001E2B8A /* RedPaperReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperReachability.h; sourceTree = "<group>"; };
 		626780051CB782AC001E2B8A /* RedPaperReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperReachability.m; sourceTree = "<group>"; };
@@ -79,6 +64,28 @@
 		626780121CBAB8DE001E2B8A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		626780131CBAB8DE001E2B8A /* JKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebView.h; sourceTree = "<group>"; };
 		626780141CBAB8DE001E2B8A /* JKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWebView.m; sourceTree = "<group>"; };
+		626780181CBAB9A3001E2B8A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		626780191CBAB9A3001E2B8A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6267801D1CBABA09001E2B8A /* NSString+Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Collection.h"; sourceTree = "<group>"; };
+		6267801E1CBABA09001E2B8A /* NSString+Collection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Collection.m"; sourceTree = "<group>"; };
+		626780211CBABA09001E2B8A /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
+		626780221CBABA09001E2B8A /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
+		626780231CBABA09001E2B8A /* DownloadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadCell.xib; sourceTree = "<group>"; };
+		626780251CBABA09001E2B8A /* UIColor+DHZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DHZCategory.h"; sourceTree = "<group>"; };
+		626780261CBABA09001E2B8A /* UIColor+DHZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DHZCategory.m"; sourceTree = "<group>"; };
+		626780271CBABA09001E2B8A /* UIColor+DHZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DHZColor.h"; sourceTree = "<group>"; };
+		626780281CBABA09001E2B8A /* UIColor+DHZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DHZColor.m"; sourceTree = "<group>"; };
+		626780291CBABA09001E2B8A /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		6267802A1CBABA09001E2B8A /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		6267802C1CBABA09001E2B8A /* ChooseFloorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFloorView.h; sourceTree = "<group>"; };
+		6267802D1CBABA09001E2B8A /* ChooseFloorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFloorView.m; sourceTree = "<group>"; };
+		6267802E1CBABA09001E2B8A /* InfoBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoBoxView.h; sourceTree = "<group>"; };
+		6267802F1CBABA09001E2B8A /* InfoBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxView.m; sourceTree = "<group>"; };
+		626780301CBABA09001E2B8A /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		626780311CBABA09001E2B8A /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		6267803B1CBAC414001E2B8A /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		6267803C1CBAC414001E2B8A /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
+		6267803E1CBAC563001E2B8A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHZ_LIBRARY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3621A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA3631A5144D8005DEA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,69 +137,6 @@
 			path = NSRunloop;
 			sourceTree = "<group>";
 		};
-		62677F8D1CB4F59F001E2B8A /* NS */ = {
-			isa = PBXGroup;
-			children = (
-				62677F8E1CB4F59F001E2B8A /* NSString */,
-			);
-			path = NS;
-			sourceTree = "<group>";
-		};
-		62677F8E1CB4F59F001E2B8A /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				62677F8F1CB4F59F001E2B8A /* NSString+Collection.h */,
-				62677F901CB4F59F001E2B8A /* NSString+Collection.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		62677F911CB4F59F001E2B8A /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				62677F9A1CB4F60D001E2B8A /* UIDevice+Hardware.h */,
-				62677F9B1CB4F60D001E2B8A /* UIDevice+Hardware.m */,
-				62677FAD1CB4F68A001E2B8A /* View */,
-				62677F9D1CB4F633001E2B8A /* Cell */,
-				62677F921CB4F59F001E2B8A /* UIColor */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		62677F921CB4F59F001E2B8A /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				62677F971CB4F602001E2B8A /* UIColor+DHZColor.h */,
-				62677F981CB4F602001E2B8A /* UIColor+DHZColor.m */,
-				62677F931CB4F59F001E2B8A /* UIColor+DHZCategory.h */,
-				62677F941CB4F59F001E2B8A /* UIColor+DHZCategory.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		62677F9D1CB4F633001E2B8A /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				62677F9E1CB4F633001E2B8A /* DownloadCell.h */,
-				62677F9F1CB4F633001E2B8A /* DownloadCell.m */,
-				62677FA01CB4F633001E2B8A /* DownloadCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		62677FAD1CB4F68A001E2B8A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				62677FAE1CB4F68A001E2B8A /* ChooseFloorView.h */,
-				62677FAF1CB4F68A001E2B8A /* ChooseFloorView.m */,
-				62677FB01CB4F68A001E2B8A /* InfoBoxView.h */,
-				62677FB11CB4F68A001E2B8A /* InfoBoxView.m */,
-				62677FB21CB4F68A001E2B8A /* UserInfoView.h */,
-				62677FB31CB4F68A001E2B8A /* UserInfoView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		626780031CB782AC001E2B8A /* RedPaper */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +153,8 @@
 		6267800D1CB7B037001E2B8A /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				6267803B1CBAC414001E2B8A /* DownloadOperation.h */,
+				6267803C1CBAC414001E2B8A /* DownloadOperation.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -217,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				6267800F1CBAB8DE001E2B8A /* JSCallOC */,
+				626780181CBAB9A3001E2B8A /* WebViewController.h */,
+				626780191CBAB9A3001E2B8A /* WebViewController.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -238,6 +186,69 @@
 				626780121CBAB8DE001E2B8A /* index.js */,
 			);
 			path = html;
+			sourceTree = "<group>";
+		};
+		6267801B1CBABA09001E2B8A /* NSLib */ = {
+			isa = PBXGroup;
+			children = (
+				6267801C1CBABA09001E2B8A /* NSString */,
+			);
+			path = NSLib;
+			sourceTree = "<group>";
+		};
+		6267801C1CBABA09001E2B8A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6267801D1CBABA09001E2B8A /* NSString+Collection.h */,
+				6267801E1CBABA09001E2B8A /* NSString+Collection.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		6267801F1CBABA09001E2B8A /* UILib */ = {
+			isa = PBXGroup;
+			children = (
+				626780201CBABA09001E2B8A /* Cell */,
+				626780241CBABA09001E2B8A /* UIColor */,
+				626780291CBABA09001E2B8A /* UIDevice+Hardware.h */,
+				6267802A1CBABA09001E2B8A /* UIDevice+Hardware.m */,
+				6267802B1CBABA09001E2B8A /* View */,
+			);
+			path = UILib;
+			sourceTree = "<group>";
+		};
+		626780201CBABA09001E2B8A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				626780211CBABA09001E2B8A /* DownloadCell.h */,
+				626780221CBABA09001E2B8A /* DownloadCell.m */,
+				626780231CBABA09001E2B8A /* DownloadCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		626780241CBABA09001E2B8A /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				626780251CBABA09001E2B8A /* UIColor+DHZCategory.h */,
+				626780261CBABA09001E2B8A /* UIColor+DHZCategory.m */,
+				626780271CBABA09001E2B8A /* UIColor+DHZColor.h */,
+				626780281CBABA09001E2B8A /* UIColor+DHZColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		6267802B1CBABA09001E2B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6267802C1CBABA09001E2B8A /* ChooseFloorView.h */,
+				6267802D1CBABA09001E2B8A /* ChooseFloorView.m */,
+				6267802E1CBABA09001E2B8A /* InfoBoxView.h */,
+				6267802F1CBABA09001E2B8A /* InfoBoxView.m */,
+				626780301CBABA09001E2B8A /* UserInfoView.h */,
+				626780311CBABA09001E2B8A /* UserInfoView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		626CA3551A5144D8005DEA64 = {
@@ -265,15 +276,12 @@
 				6251CBA71AA7042400AD5CEC /* Macro.h */,
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
-				62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */,
+				6267803E1CBAC563001E2B8A /* PrefixHeader.pch */,
 				6267800E1CBAB8DE001E2B8A /* WebView */,
 				62677F791CA693C5001E2B8A /* NSRunloop */,
 				622E4E5B1BABB98A00FEB805 /* NSOperation */,
-				62677F8D1CB4F59F001E2B8A /* NS */,
-				62677F911CB4F59F001E2B8A /* UI */,
-				626CA36B1A5144D8005DEA64 /* Images.xcassets */,
-				626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */,
-				626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */,
+				6267801B1CBABA09001E2B8A /* NSLib */,
+				6267801F1CBABA09001E2B8A /* UILib */,
 				626CA3611A5144D8005DEA64 /* Supporting Files */,
 			);
 			path = DHZ_LIBRARY;
@@ -282,6 +290,10 @@
 		626CA3611A5144D8005DEA64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */,
+				626CA36B1A5144D8005DEA64 /* Images.xcassets */,
+				626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */,
+				626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */,
 				626CA3621A5144D8005DEA64 /* Info.plist */,
 				626CA3631A5144D8005DEA64 /* main.m */,
 			);
@@ -390,10 +402,10 @@
 			files = (
 				626780151CBAB8DE001E2B8A /* index.html in Resources */,
 				626CA36F1A5144D8005DEA64 /* LaunchScreen.xib in Resources */,
-				62677FA21CB4F633001E2B8A /* DownloadCell.xib in Resources */,
 				626780161CBAB8DE001E2B8A /* index.js in Resources */,
 				626CA36C1A5144D8005DEA64 /* Images.xcassets in Resources */,
 				62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */,
+				626780341CBABA09001E2B8A /* DownloadCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,23 +424,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
-				62677FB51CB4F68A001E2B8A /* InfoBoxView.m in Sources */,
+				6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */,
 				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
 				6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */,
+				626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */,
+				626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */,
+				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
-				62677FB41CB4F68A001E2B8A /* ChooseFloorView.m in Sources */,
-				62677F951CB4F59F001E2B8A /* NSString+Collection.m in Sources */,
+				6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */,
 				6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */,
 				62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */,
+				6267803D1CBAC414001E2B8A /* DownloadOperation.m in Sources */,
 				6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */,
-				62677F991CB4F602001E2B8A /* UIColor+DHZColor.m in Sources */,
+				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
+				626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */,
 				626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */,
-				62677FA11CB4F633001E2B8A /* DownloadCell.m in Sources */,
 				626780021CB78272001E2B8A /* README.md in Sources */,
-				62677F9C1CB4F60D001E2B8A /* UIDevice+Hardware.m in Sources */,
-				62677F961CB4F59F001E2B8A /* UIColor+DHZCategory.m in Sources */,
 				62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */,
-				62677FB61CB4F68A001E2B8A /* UserInfoView.m in Sources */,
+				626780361CBABA09001E2B8A /* UIColor+DHZColor.m in Sources */,
+				626780321CBABA09001E2B8A /* NSString+Collection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +556,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/dizi/GitHub/usiege/iOS_LIBRARY/DHZ_LIBRARY/PrefixHeader.pch;
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +568,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/dizi/GitHub/usiege/iOS_LIBRARY/DHZ_LIBRARY/PrefixHeader.pch;
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

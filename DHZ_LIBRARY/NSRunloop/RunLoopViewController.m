@@ -9,7 +9,7 @@
 #import "RunLoopViewController.h"
 
 //typedef void(^block)(int a);
-//typedef void *block2(int a);
+//typedef void* block2(int a);
 
 @interface RunLoopViewController ()
 {
@@ -30,8 +30,6 @@
     // Do any additional setup after loading the view.
     
     //[self runloopPractise];
-    
-    [self gcdTest];
 }
 
 - (void)gcdTest

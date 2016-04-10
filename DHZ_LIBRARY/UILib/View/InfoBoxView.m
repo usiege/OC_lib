@@ -7,7 +7,7 @@
 //
 
 #import "InfoBoxView.h"
-#import "UIColor+Color16.h"
+#import "UIColor+DHZColor.h"
 
 @interface InfoBoxView ()
 {
