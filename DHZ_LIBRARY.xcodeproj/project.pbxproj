@@ -34,6 +34,7 @@
 		626CA36C1A5144D8005DEA64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626CA36B1A5144D8005DEA64 /* Images.xcassets */; };
 		626CA36F1A5144D8005DEA64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */; };
 		626CA37B1A5144D8005DEA64 /* DHZ_LIBRARYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA37A1A5144D8005DEA64 /* DHZ_LIBRARYTests.m */; };
+		73DAE3216CB5A89B2DADAEAA /* libPods-DHZ_LIBRARY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHZ_LIBRARY.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY.release.xcconfig"; sourceTree = "<group>"; };
+		2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHZ_LIBRARY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY.debug.xcconfig"; sourceTree = "<group>"; };
 		6251CBA71AA7042400AD5CEC /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		62677F7A1CA693DE001E2B8A /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		626780311CBABA09001E2B8A /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
 		6267803B1CBAC414001E2B8A /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
 		6267803C1CBAC414001E2B8A /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
-		6267803E1CBAC563001E2B8A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHZ_LIBRARY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3621A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA3631A5144D8005DEA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +99,8 @@
 		626CA3741A5144D8005DEA64 /* DHZ_LIBRARYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHZ_LIBRARYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3791A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA37A1A5144D8005DEA64 /* DHZ_LIBRARYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHZ_LIBRARYTests.m; sourceTree = "<group>"; };
+		9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHZ_LIBRARY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DAE3216CB5A89B2DADAEAA /* libPods-DHZ_LIBRARY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FD9C6855BB761F36E03085D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */,
+				053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		622E4E5B1BABB98A00FEB805 /* NSOperation */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +272,8 @@
 				626CA3601A5144D8005DEA64 /* DHZ_LIBRARY */,
 				626CA3771A5144D8005DEA64 /* DHZ_LIBRARYTests */,
 				626CA35F1A5144D8005DEA64 /* Products */,
+				5FD9C6855BB761F36E03085D /* Pods */,
+				D74CBEB5530684899CD931B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,7 +292,7 @@
 				6251CBA71AA7042400AD5CEC /* Macro.h */,
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
-				6267803E1CBAC563001E2B8A /* PrefixHeader.pch */,
+				BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */,
 				6267800E1CBAB8DE001E2B8A /* WebView */,
 				62677F791CA693C5001E2B8A /* NSRunloop */,
 				622E4E5B1BABB98A00FEB805 /* NSOperation */,
@@ -317,6 +333,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D74CBEB5530684899CD931B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -324,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 626CA37E1A5144D8005DEA64 /* Build configuration list for PBXNativeTarget "DHZ_LIBRARY" */;
 			buildPhases = (
+				5A59B01F9692AE82B2FD4EB2 /* 📦 Check Pods Manifest.lock */,
 				626CA35A1A5144D8005DEA64 /* Sources */,
 				626CA35B1A5144D8005DEA64 /* Frameworks */,
 				626CA35C1A5144D8005DEA64 /* Resources */,
+				566BEAA73E302A1C044EAB85 /* 📦 Embed Pods Frameworks */,
+				94410E437D69CCD164D6B5C3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -417,6 +444,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		566BEAA73E302A1C044EAB85 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A59B01F9692AE82B2FD4EB2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94410E437D69CCD164D6B5C3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		626CA35A1A5144D8005DEA64 /* Sources */ = {
@@ -554,11 +629,13 @@
 		};
 		626CA37F1A5144D8005DEA64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/dizi/GitHub/usiege/iOS_LIBRARY/DHZ_LIBRARY/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -566,11 +643,13 @@
 		};
 		626CA3801A5144D8005DEA64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/dizi/GitHub/usiege/iOS_LIBRARY/DHZ_LIBRARY/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
