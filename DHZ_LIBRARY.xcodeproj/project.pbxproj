@@ -9,11 +9,7 @@
 /* Begin PBXBuildFile section */
 		62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */; };
 		62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */; };
-		62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F821CB3E6DF001E2B8A /* OperationViewController.m */; };
 		626780021CB78272001E2B8A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 626780011CB78272001E2B8A /* README.md */; };
-		6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780051CB782AC001E2B8A /* RedPaperReachability.m */; };
-		6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */; };
-		6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */; };
 		626780151CBAB8DE001E2B8A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 626780111CBAB8DE001E2B8A /* index.html */; };
 		626780161CBAB8DE001E2B8A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 626780121CBAB8DE001E2B8A /* index.js */; };
 		626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780141CBAB8DE001E2B8A /* JKWebView.m */; };
@@ -27,7 +23,6 @@
 		626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267802D1CBABA09001E2B8A /* ChooseFloorView.m */; };
 		626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267802F1CBABA09001E2B8A /* InfoBoxView.m */; };
 		6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 626780311CBABA09001E2B8A /* UserInfoView.m */; };
-		6267803D1CBAC414001E2B8A /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267803C1CBAC414001E2B8A /* DownloadOperation.m */; };
 		626CA3641A5144D8005DEA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3631A5144D8005DEA64 /* main.m */; };
 		626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3661A5144D8005DEA64 /* AppDelegate.m */; };
 		626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */; };
@@ -35,6 +30,12 @@
 		626CA36F1A5144D8005DEA64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */; };
 		626CA37B1A5144D8005DEA64 /* DHZ_LIBRARYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 626CA37A1A5144D8005DEA64 /* DHZ_LIBRARYTests.m */; };
 		73DAE3216CB5A89B2DADAEAA /* libPods-DHZ_LIBRARY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */; };
+		BB06E9071CE9B229000162D6 /* NSObject+Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9061CE9B229000162D6 /* NSObject+Collection.m */; };
+		BB06E9161CE9B2C1000162D6 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E90C1CE9B2C1000162D6 /* DownloadOperation.m */; };
+		BB06E9171CE9B2C1000162D6 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E90E1CE9B2C1000162D6 /* OperationViewController.m */; };
+		BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9111CE9B2C1000162D6 /* RedPaperReachability.m */; };
+		BB06E9191CE9B2C1000162D6 /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9131CE9B2C1000162D6 /* RedPaperRequestOperation.m */; };
+		BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9151CE9B2C1000162D6 /* RedPaperRequestQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,15 +55,7 @@
 		62677F7A1CA693DE001E2B8A /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 		62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		62677F811CB3E6DF001E2B8A /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
-		62677F821CB3E6DF001E2B8A /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		626780011CB78272001E2B8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		626780041CB782AC001E2B8A /* RedPaperReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperReachability.h; sourceTree = "<group>"; };
-		626780051CB782AC001E2B8A /* RedPaperReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperReachability.m; sourceTree = "<group>"; };
-		626780061CB782AC001E2B8A /* RedPaperRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestOperation.h; sourceTree = "<group>"; };
-		626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
-		626780081CB782AC001E2B8A /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
-		626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
 		626780111CBAB8DE001E2B8A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		626780121CBAB8DE001E2B8A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 		626780131CBAB8DE001E2B8A /* JKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebView.h; sourceTree = "<group>"; };
@@ -86,8 +79,6 @@
 		6267802F1CBABA09001E2B8A /* InfoBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoBoxView.m; sourceTree = "<group>"; };
 		626780301CBABA09001E2B8A /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
 		626780311CBABA09001E2B8A /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
-		6267803B1CBAC414001E2B8A /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
-		6267803C1CBAC414001E2B8A /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
 		626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHZ_LIBRARY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		626CA3621A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA3631A5144D8005DEA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +91,18 @@
 		626CA3791A5144D8005DEA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		626CA37A1A5144D8005DEA64 /* DHZ_LIBRARYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHZ_LIBRARYTests.m; sourceTree = "<group>"; };
 		9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHZ_LIBRARY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB06E9051CE9B229000162D6 /* NSObject+Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Collection.h"; sourceTree = "<group>"; };
+		BB06E9061CE9B229000162D6 /* NSObject+Collection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Collection.m"; sourceTree = "<group>"; };
+		BB06E90B1CE9B2C1000162D6 /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadOperation.h; sourceTree = "<group>"; };
+		BB06E90C1CE9B2C1000162D6 /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadOperation.m; sourceTree = "<group>"; };
+		BB06E90D1CE9B2C1000162D6 /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		BB06E90E1CE9B2C1000162D6 /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		BB06E9101CE9B2C1000162D6 /* RedPaperReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperReachability.h; sourceTree = "<group>"; };
+		BB06E9111CE9B2C1000162D6 /* RedPaperReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperReachability.m; sourceTree = "<group>"; };
+		BB06E9121CE9B2C1000162D6 /* RedPaperRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestOperation.h; sourceTree = "<group>"; };
+		BB06E9131CE9B2C1000162D6 /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
+		BB06E9141CE9B2C1000162D6 /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
+		BB06E9151CE9B2C1000162D6 /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,17 +134,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		622E4E5B1BABB98A00FEB805 /* NSOperation */ = {
-			isa = PBXGroup;
-			children = (
-				6267800D1CB7B037001E2B8A /* Custom */,
-				626780031CB782AC001E2B8A /* RedPaper */,
-				62677F811CB3E6DF001E2B8A /* OperationViewController.h */,
-				62677F821CB3E6DF001E2B8A /* OperationViewController.m */,
-			);
-			path = NSOperation;
-			sourceTree = "<group>";
-		};
 		62677F791CA693C5001E2B8A /* NSRunloop */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,28 +141,6 @@
 				62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */,
 			);
 			path = NSRunloop;
-			sourceTree = "<group>";
-		};
-		626780031CB782AC001E2B8A /* RedPaper */ = {
-			isa = PBXGroup;
-			children = (
-				626780041CB782AC001E2B8A /* RedPaperReachability.h */,
-				626780051CB782AC001E2B8A /* RedPaperReachability.m */,
-				626780061CB782AC001E2B8A /* RedPaperRequestOperation.h */,
-				626780071CB782AC001E2B8A /* RedPaperRequestOperation.m */,
-				626780081CB782AC001E2B8A /* RedPaperRequestQueue.h */,
-				626780091CB782AC001E2B8A /* RedPaperRequestQueue.m */,
-			);
-			path = RedPaper;
-			sourceTree = "<group>";
-		};
-		6267800D1CB7B037001E2B8A /* Custom */ = {
-			isa = PBXGroup;
-			children = (
-				6267803B1CBAC414001E2B8A /* DownloadOperation.h */,
-				6267803C1CBAC414001E2B8A /* DownloadOperation.m */,
-			);
-			path = Custom;
 			sourceTree = "<group>";
 		};
 		6267800E1CBAB8DE001E2B8A /* WebView */ = {
@@ -206,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				6267801C1CBABA09001E2B8A /* NSString */,
+				BB06E9051CE9B229000162D6 /* NSObject+Collection.h */,
+				BB06E9061CE9B229000162D6 /* NSObject+Collection.m */,
 			);
 			path = NSLib;
 			sourceTree = "<group>";
@@ -293,9 +265,9 @@
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
 				BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */,
+				BB06E9081CE9B2C1000162D6 /* NetRefer */,
 				6267800E1CBAB8DE001E2B8A /* WebView */,
 				62677F791CA693C5001E2B8A /* NSRunloop */,
-				622E4E5B1BABB98A00FEB805 /* NSOperation */,
 				6267801B1CBABA09001E2B8A /* NSLib */,
 				6267801F1CBABA09001E2B8A /* UILib */,
 				626CA3611A5144D8005DEA64 /* Supporting Files */,
@@ -331,6 +303,55 @@
 				626CA3791A5144D8005DEA64 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB06E9081CE9B2C1000162D6 /* NetRefer */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E91B1CE9B2E9000162D6 /* Socket */,
+				BB06E9091CE9B2C1000162D6 /* NSOperation */,
+			);
+			path = NetRefer;
+			sourceTree = "<group>";
+		};
+		BB06E9091CE9B2C1000162D6 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E90A1CE9B2C1000162D6 /* Custom */,
+				BB06E90D1CE9B2C1000162D6 /* OperationViewController.h */,
+				BB06E90E1CE9B2C1000162D6 /* OperationViewController.m */,
+				BB06E90F1CE9B2C1000162D6 /* RedPaper */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		BB06E90A1CE9B2C1000162D6 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E90B1CE9B2C1000162D6 /* DownloadOperation.h */,
+				BB06E90C1CE9B2C1000162D6 /* DownloadOperation.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		BB06E90F1CE9B2C1000162D6 /* RedPaper */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E9101CE9B2C1000162D6 /* RedPaperReachability.h */,
+				BB06E9111CE9B2C1000162D6 /* RedPaperReachability.m */,
+				BB06E9121CE9B2C1000162D6 /* RedPaperRequestOperation.h */,
+				BB06E9131CE9B2C1000162D6 /* RedPaperRequestOperation.m */,
+				BB06E9141CE9B2C1000162D6 /* RedPaperRequestQueue.h */,
+				BB06E9151CE9B2C1000162D6 /* RedPaperRequestQueue.m */,
+			);
+			path = RedPaper;
+			sourceTree = "<group>";
+		};
+		BB06E91B1CE9B2E9000162D6 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 		D74CBEB5530684899CD931B9 /* Frameworks */ = {
@@ -498,24 +519,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB06E9161CE9B2C1000162D6 /* DownloadOperation.m in Sources */,
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
 				6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */,
+				BB06E9071CE9B229000162D6 /* NSObject+Collection.m in Sources */,
 				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
-				6267800B1CB782AC001E2B8A /* RedPaperRequestOperation.m in Sources */,
 				626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */,
+				BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */,
 				626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */,
 				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
 				6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */,
-				6267800A1CB782AC001E2B8A /* RedPaperReachability.m in Sources */,
-				62677F831CB3E6DF001E2B8A /* OperationViewController.m in Sources */,
-				6267803D1CBAC414001E2B8A /* DownloadOperation.m in Sources */,
-				6267800C1CB782AC001E2B8A /* RedPaperRequestQueue.m in Sources */,
+				BB06E9171CE9B2C1000162D6 /* OperationViewController.m in Sources */,
 				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
 				626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */,
 				626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */,
+				BB06E9191CE9B2C1000162D6 /* RedPaperRequestOperation.m in Sources */,
 				626780021CB78272001E2B8A /* README.md in Sources */,
 				62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */,
+				BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */,
 				626780361CBABA09001E2B8A /* UIColor+DHZColor.m in Sources */,
 				626780321CBABA09001E2B8A /* NSString+Collection.m in Sources */,
 			);

@@ -1,12 +1,21 @@
 PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
   - Reachability (3.2)
 
 DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.4.3)
   - Reachability
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: 84bee460a0d28bbf1b8774ca029bf24d201b8ce7
+PODFILE CHECKSUM: 31fa69c5f6c00031cc6198a69936e8903b6f9e80
 
 COCOAPODS: 1.0.0

@@ -10,8 +10,7 @@
 
 @implementation NSString (Collection)
 
-+ (BOOL)fitToChineseIDWithString:(NSString*)aString
-{
++ (BOOL)fitToChineseIDWithString:(NSString*)aString{
     aString=[aString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
     NSString * regex1 = @"^[1-9]\\d{7}((0\\d)|(1[0-2]))(([0|1|2]\\d)|3[0-1])\\d{3}$";
     NSString * regex2 = @"^[1-9]\\d{5}(19|20)\\d{2}(0\\d|1[0-2])(([0|1|2]\\d)|3[0-1])\\d{3}(x|X|\\d)$";
@@ -143,5 +142,6 @@
         return NO;
     }
 }
+
 
 @end
