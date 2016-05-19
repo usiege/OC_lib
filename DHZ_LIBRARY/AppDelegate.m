@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RunLoopViewController.h"
+#import "BluetoothViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,11 +25,17 @@
     
     //[self touchTest];
     
-    [self runloopTest];
+    //[self runloopTest];
     
+    [self bluetoochTest];
     
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)bluetoochTest{
+    BluetoothViewController* bv = [[BluetoothViewController alloc] init];
+    self.window.rootViewController = bv;
 }
 
 - (void)runloopTest

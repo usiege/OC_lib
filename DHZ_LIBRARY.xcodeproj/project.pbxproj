@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */; };
 		62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */; };
 		626780021CB78272001E2B8A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 626780011CB78272001E2B8A /* README.md */; };
 		626780151CBAB8DE001E2B8A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 626780111CBAB8DE001E2B8A /* index.html */; };
@@ -36,6 +35,9 @@
 		BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9111CE9B2C1000162D6 /* RedPaperReachability.m */; };
 		BB06E9191CE9B2C1000162D6 /* RedPaperRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9131CE9B2C1000162D6 /* RedPaperRequestOperation.m */; };
 		BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9151CE9B2C1000162D6 /* RedPaperRequestQueue.m */; };
+		BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E99C1CEB0CE6000162D6 /* RunLoopViewController.m */; };
+		BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */; };
+		BB06E9AA1CEC04B2000162D6 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,6 @@
 		053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHZ_LIBRARY.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY.release.xcconfig"; sourceTree = "<group>"; };
 		2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHZ_LIBRARY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY.debug.xcconfig"; sourceTree = "<group>"; };
 		6251CBA71AA7042400AD5CEC /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		62677F7A1CA693DE001E2B8A /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
-		62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 		62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		626780011CB78272001E2B8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		626780111CBAB8DE001E2B8A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -103,6 +103,11 @@
 		BB06E9131CE9B2C1000162D6 /* RedPaperRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestOperation.m; sourceTree = "<group>"; };
 		BB06E9141CE9B2C1000162D6 /* RedPaperRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPaperRequestQueue.h; sourceTree = "<group>"; };
 		BB06E9151CE9B2C1000162D6 /* RedPaperRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPaperRequestQueue.m; sourceTree = "<group>"; };
+		BB06E99B1CEB0CE6000162D6 /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		BB06E99C1CEB0CE6000162D6 /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
+		BB06E9A01CEB0EEE000162D6 /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,15 +137,6 @@
 				053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		62677F791CA693C5001E2B8A /* NSRunloop */ = {
-			isa = PBXGroup;
-			children = (
-				62677F7A1CA693DE001E2B8A /* RunLoopViewController.h */,
-				62677F7B1CA693DE001E2B8A /* RunLoopViewController.m */,
-			);
-			path = NSRunloop;
 			sourceTree = "<group>";
 		};
 		6267800E1CBAB8DE001E2B8A /* WebView */ = {
@@ -175,6 +171,7 @@
 		6267801B1CBABA09001E2B8A /* NSLib */ = {
 			isa = PBXGroup;
 			children = (
+				BB06E99A1CEB0CE6000162D6 /* NSRunloop */,
 				6267801C1CBABA09001E2B8A /* NSString */,
 				BB06E9051CE9B229000162D6 /* NSObject+Collection.h */,
 				BB06E9061CE9B229000162D6 /* NSObject+Collection.m */,
@@ -265,9 +262,9 @@
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
 				BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */,
+				BB06E99E1CEB0CFF000162D6 /* Cocoa */,
 				BB06E9081CE9B2C1000162D6 /* NetRefer */,
 				6267800E1CBAB8DE001E2B8A /* WebView */,
-				62677F791CA693C5001E2B8A /* NSRunloop */,
 				6267801B1CBABA09001E2B8A /* NSLib */,
 				6267801F1CBABA09001E2B8A /* UILib */,
 				626CA3611A5144D8005DEA64 /* Supporting Files */,
@@ -354,6 +351,33 @@
 			path = Socket;
 			sourceTree = "<group>";
 		};
+		BB06E99A1CEB0CE6000162D6 /* NSRunloop */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E99B1CEB0CE6000162D6 /* RunLoopViewController.h */,
+				BB06E99C1CEB0CE6000162D6 /* RunLoopViewController.m */,
+			);
+			path = NSRunloop;
+			sourceTree = "<group>";
+		};
+		BB06E99E1CEB0CFF000162D6 /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E99F1CEB0D13000162D6 /* Bluetooth */,
+			);
+			path = Cocoa;
+			sourceTree = "<group>";
+		};
+		BB06E99F1CEB0D13000162D6 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				BB06E9A01CEB0EEE000162D6 /* BluetoothViewController.h */,
+				BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */,
+				BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
 		D74CBEB5530684899CD931B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +441,7 @@
 				TargetAttributes = {
 					626CA35D1A5144D8005DEA64 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = KP4EV5KXB5;
 					};
 					626CA3731A5144D8005DEA64 = {
 						CreatedOnToolsVersion = 6.1;
@@ -448,6 +473,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB06E9AA1CEC04B2000162D6 /* BluetoothViewController.xib in Resources */,
 				626780151CBAB8DE001E2B8A /* index.html in Resources */,
 				626CA36F1A5144D8005DEA64 /* LaunchScreen.xib in Resources */,
 				626780161CBAB8DE001E2B8A /* index.js in Resources */,
@@ -520,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB06E9161CE9B2C1000162D6 /* DownloadOperation.m in Sources */,
+				BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */,
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
 				6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */,
 				BB06E9071CE9B229000162D6 /* NSObject+Collection.m in Sources */,
@@ -533,10 +560,10 @@
 				BB06E9171CE9B2C1000162D6 /* OperationViewController.m in Sources */,
 				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
 				626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */,
+				BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */,
 				626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */,
 				BB06E9191CE9B2C1000162D6 /* RedPaperRequestOperation.m in Sources */,
 				626780021CB78272001E2B8A /* README.md in Sources */,
-				62677F7C1CA693DE001E2B8A /* RunLoopViewController.m in Sources */,
 				BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */,
 				626780361CBABA09001E2B8A /* UIColor+DHZColor.m in Sources */,
 				626780321CBABA09001E2B8A /* NSString+Collection.m in Sources */,
@@ -654,12 +681,15 @@
 			baseConfigurationReference = 2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -668,12 +698,15 @@
 			baseConfigurationReference = 053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(TARGET_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
