@@ -38,6 +38,8 @@
 		BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E99C1CEB0CE6000162D6 /* RunLoopViewController.m */; };
 		BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */; };
 		BB06E9AA1CEC04B2000162D6 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */; };
+		BBFFD9131CEECD96000B0EA6 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFD90A1CEECD96000B0EA6 /* KeyChain.m */; };
+		BBFFD9141CEECD96000B0EA6 /* KeyChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFFD90C1CEECD96000B0EA6 /* KeyChainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,10 @@
 		BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
 		BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BBFFD9091CEECD96000B0EA6 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		BBFFD90A1CEECD96000B0EA6 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		BBFFD90B1CEECD96000B0EA6 /* KeyChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainViewController.h; sourceTree = "<group>"; };
+		BBFFD90C1CEECD96000B0EA6 /* KeyChainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +369,7 @@
 		BB06E99E1CEB0CFF000162D6 /* Cocoa */ = {
 			isa = PBXGroup;
 			children = (
+				BBFFD9001CEECD96000B0EA6 /* KeyChain */,
 				BB06E99F1CEB0D13000162D6 /* Bluetooth */,
 			);
 			path = Cocoa;
@@ -376,6 +383,17 @@
 				BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */,
 			);
 			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		BBFFD9001CEECD96000B0EA6 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				BBFFD9091CEECD96000B0EA6 /* KeyChain.h */,
+				BBFFD90A1CEECD96000B0EA6 /* KeyChain.m */,
+				BBFFD90B1CEECD96000B0EA6 /* KeyChainViewController.h */,
+				BBFFD90C1CEECD96000B0EA6 /* KeyChainViewController.m */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 		D74CBEB5530684899CD931B9 /* Frameworks */ = {
@@ -553,11 +571,13 @@
 				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
 				626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */,
 				BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */,
+				BBFFD9131CEECD96000B0EA6 /* KeyChain.m in Sources */,
 				626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */,
 				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
 				6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */,
 				BB06E9171CE9B2C1000162D6 /* OperationViewController.m in Sources */,
+				BBFFD9141CEECD96000B0EA6 /* KeyChainViewController.m in Sources */,
 				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
 				626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */,
 				BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */,
