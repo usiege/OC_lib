@@ -5,3 +5,9 @@
 5月17日 
 添加Socket文件目录，将NSOperation与之转入NetRefer;
 添加Cocoa文件目录，添加蓝牙模块；
+
+5月20日
+添加KeyChain模块；
+
+5月21日
+添加Localize本地化目录，用于存储本地化相关的内容；
