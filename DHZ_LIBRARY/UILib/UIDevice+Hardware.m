@@ -41,8 +41,7 @@
     return [self modelNameForModelIdentifier:[self modelIdentifier]];
 }
 
-- (NSString *)deviceString
-{
+- (NSString *)deviceString{
 //    UIDeviceiPhone4 = 10,
 //    UIDeviceiPhone5 = 11,
 //    UIDeviceiPhone5S = 31,

@@ -38,6 +38,14 @@
 		BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E99C1CEB0CE6000162D6 /* RunLoopViewController.m */; };
 		BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */; };
 		BB06E9AA1CEC04B2000162D6 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */; };
+		BB2B33B01CF1F06C00823C23 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2B33AF1CF1F06C00823C23 /* CloudKit.framework */; };
+		BB2B7DF31CFC29A600C558B8 /* StudyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7DF11CFC29A600C558B8 /* StudyModel.xcdatamodeld */; };
+		BB2B7DF51CFC2B9000C558B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2B7DF41CFC2B9000C558B8 /* CoreData.framework */; };
+		BB2B7DF81CFC2BC500C558B8 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7DF71CFC2BC500C558B8 /* CoreDataViewController.m */; };
+		BB2B7E011CFC31E000C558B8 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7DFA1CFC31E000C558B8 /* Card+CoreDataProperties.m */; };
+		BB2B7E021CFC31E000C558B8 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7DFC1CFC31E000C558B8 /* Card.m */; };
+		BB2B7E031CFC31E000C558B8 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7DFE1CFC31E000C558B8 /* Person+CoreDataProperties.m */; };
+		BB2B7E041CFC31E000C558B8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E001CFC31E000C558B8 /* Person.m */; };
 		BBF8BF3E1CF0B95A00BA0674 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */; };
 		BBF8BF3F1CF0B95A00BA0674 /* KeyChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3D1CF0B95A00BA0674 /* KeyChainViewController.m */; };
 /* End PBXBuildFile section */
@@ -110,6 +118,20 @@
 		BB06E9A01CEB0EEE000162D6 /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
 		BB06E9A11CEB0EEE000162D6 /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
 		BB06E9A91CEC04B2000162D6 /* BluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
+		BB2B33A81CF1EEA100823C23 /* DHZ_LIBRARY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DHZ_LIBRARY.entitlements; sourceTree = "<group>"; };
+		BB2B33AF1CF1F06C00823C23 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		BB2B7DF21CFC29A600C558B8 /* StudyModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyModel.xcdatamodel; sourceTree = "<group>"; };
+		BB2B7DF41CFC2B9000C558B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB2B7DF61CFC2BC500C558B8 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		BB2B7DF71CFC2BC500C558B8 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		BB2B7DF91CFC31E000C558B8 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BB2B7DFA1CFC31E000C558B8 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BB2B7DFB1CFC31E000C558B8 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BB2B7DFC1CFC31E000C558B8 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BB2B7DFD1CFC31E000C558B8 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BB2B7DFE1CFC31E000C558B8 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BB2B7DFF1CFC31E000C558B8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BB2B7E001CFC31E000C558B8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BBF8BF3A1CF0B95A00BA0674 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
 		BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
@@ -122,7 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2B7DF51CFC2B9000C558B8 /* CoreData.framework in Frameworks */,
 				73DAE3216CB5A89B2DADAEAA /* libPods-DHZ_LIBRARY.a in Frameworks */,
+				BB2B33B01CF1F06C00823C23 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +306,11 @@
 		626CA3611A5144D8005DEA64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */,
+				BB2B33A81CF1EEA100823C23 /* DHZ_LIBRARY.entitlements */,
 				62677F7F1CA6A2BF001E2B8A /* Storyboard.storyboard */,
 				626CA36B1A5144D8005DEA64 /* Images.xcassets */,
 				626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */,
-				626CA3681A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld */,
 				626CA3621A5144D8005DEA64 /* Info.plist */,
 				626CA3631A5144D8005DEA64 /* main.m */,
 			);
@@ -385,9 +410,28 @@
 			path = Bluetooth;
 			sourceTree = "<group>";
 		};
+		BB2B7DF01CFC292900C558B8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BB2B7DF11CFC29A600C558B8 /* StudyModel.xcdatamodeld */,
+				BB2B7DF91CFC31E000C558B8 /* Card+CoreDataProperties.h */,
+				BB2B7DFA1CFC31E000C558B8 /* Card+CoreDataProperties.m */,
+				BB2B7DFB1CFC31E000C558B8 /* Card.h */,
+				BB2B7DFC1CFC31E000C558B8 /* Card.m */,
+				BB2B7DFD1CFC31E000C558B8 /* Person+CoreDataProperties.h */,
+				BB2B7DFE1CFC31E000C558B8 /* Person+CoreDataProperties.m */,
+				BB2B7DFF1CFC31E000C558B8 /* Person.h */,
+				BB2B7E001CFC31E000C558B8 /* Person.m */,
+				BB2B7DF61CFC2BC500C558B8 /* CoreDataViewController.h */,
+				BB2B7DF71CFC2BC500C558B8 /* CoreDataViewController.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		BBF8BF381CF0B93A00BA0674 /* Localize */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B7DF01CFC292900C558B8 /* CoreData */,
 				BBF8BF391CF0B95A00BA0674 /* KeyChain */,
 			);
 			path = Localize;
@@ -407,6 +451,8 @@
 		D74CBEB5530684899CD931B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B7DF41CFC2B9000C558B8 /* CoreData.framework */,
+				BB2B33AF1CF1F06C00823C23 /* CloudKit.framework */,
 				9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */,
 			);
 			name = Frameworks;
@@ -419,12 +465,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 626CA37E1A5144D8005DEA64 /* Build configuration list for PBXNativeTarget "DHZ_LIBRARY" */;
 			buildPhases = (
-				5A59B01F9692AE82B2FD4EB2 /* 📦 Check Pods Manifest.lock */,
 				626CA35A1A5144D8005DEA64 /* Sources */,
 				626CA35B1A5144D8005DEA64 /* Frameworks */,
 				626CA35C1A5144D8005DEA64 /* Resources */,
 				566BEAA73E302A1C044EAB85 /* 📦 Embed Pods Frameworks */,
 				94410E437D69CCD164D6B5C3 /* 📦 Copy Pods Resources */,
+				5A59B01F9692AE82B2FD4EB2 /* 📦 Check Pods Manifest.lock */,
 			);
 			buildRules = (
 			);
@@ -467,7 +513,12 @@
 				TargetAttributes = {
 					626CA35D1A5144D8005DEA64 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = KP4EV5KXB5;
+						DevelopmentTeam = 52U53KWCFQ;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					626CA3731A5144D8005DEA64 = {
 						CreatedOnToolsVersion = 6.1;
@@ -575,12 +626,15 @@
 				BBF8BF3E1CF0B95A00BA0674 /* KeyChain.m in Sources */,
 				BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */,
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
+				BB2B7DF31CFC29A600C558B8 /* StudyModel.xcdatamodeld in Sources */,
 				6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */,
 				BB06E9071CE9B229000162D6 /* NSObject+Collection.m in Sources */,
+				BB2B7E011CFC31E000C558B8 /* Card+CoreDataProperties.m in Sources */,
 				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
 				626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */,
 				BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */,
 				626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */,
+				BB2B7E041CFC31E000C558B8 /* Person.m in Sources */,
 				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
 				6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */,
@@ -588,7 +642,10 @@
 				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
 				626780381CBABA09001E2B8A /* ChooseFloorView.m in Sources */,
 				BB06E99D1CEB0CE6000162D6 /* RunLoopViewController.m in Sources */,
+				BB2B7E031CFC31E000C558B8 /* Person+CoreDataProperties.m in Sources */,
+				BB2B7E021CFC31E000C558B8 /* Card.m in Sources */,
 				626CA36A1A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodeld in Sources */,
+				BB2B7DF81CFC2BC500C558B8 /* CoreDataViewController.m in Sources */,
 				BB06E9191CE9B2C1000162D6 /* RedPaperRequestOperation.m in Sources */,
 				626780021CB78272001E2B8A /* README.md in Sources */,
 				BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */,
@@ -662,7 +719,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -697,7 +754,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -709,6 +766,7 @@
 			baseConfigurationReference = 2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DHZ_LIBRARY/DHZ_LIBRARY.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -716,6 +774,7 @@
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lzhb.DHZ-LIBRARY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -726,6 +785,7 @@
 			baseConfigurationReference = 053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DHZ_LIBRARY/DHZ_LIBRARY.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -733,6 +793,7 @@
 				INFOPLIST_FILE = DHZ_LIBRARY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lzhb.DHZ-LIBRARY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -812,6 +873,16 @@
 			);
 			currentVersion = 626CA3691A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodel */;
 			path = DHZ_LIBRARY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		BB2B7DF11CFC29A600C558B8 /* StudyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB2B7DF21CFC29A600C558B8 /* StudyModel.xcdatamodel */,
+			);
+			currentVersion = BB2B7DF21CFC29A600C558B8 /* StudyModel.xcdatamodel */;
+			path = StudyModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

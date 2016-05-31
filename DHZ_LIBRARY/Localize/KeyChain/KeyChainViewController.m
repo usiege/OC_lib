@@ -76,8 +76,8 @@ static NSString * const KEY_PASSWORD = @"com.wuqian.app.password"; //  密码在
 
 - (void)btnClick:(id)sender
 {
-    [ViewController savePassWord:_field.text];
-    _psw.text = [ViewController readPassWord];
+    [KeyChainViewController savePassWord:_field.text];
+    _psw.text = [KeyChainViewController readPassWord];
 
     if (![_field isExclusiveTouch]) {
         //Setting this property to YES causes the receiver to block the delivery of touch events to other views in the same window. The default value of this property is NO.

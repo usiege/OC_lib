@@ -15,9 +15,9 @@ static NSString *serviceName = @"com.mycompany.myAppServiceName";
 
 + (NSMutableDictionary *)newSearchDictionary:(NSString *)identifier
 {
-    
+
     NSMutableDictionary * searchDictionary = [[NSMutableDictionary alloc] init];
-    NSData *encodeInditifier = [identifier dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *encodeInditifier               = [identifier dataUsingEncoding:NSUTF8StringEncoding];
     [searchDictionary setObject:(__bridge_transfer id)kSecClassGenericPassword
                          forKey:(__bridge_transfer id)kSecClass];
     [searchDictionary setObject:encodeInditifier forKey:(__bridge_transfer id)kSecAttrGeneric];

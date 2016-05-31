@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "RunLoopViewController.h"
 #import "BluetoothViewController.h"
+#import "CoreDataViewController.h"
 
 @interface AppDelegate ()
 
@@ -27,11 +28,19 @@
     
     //[self runloopTest];
     
-    [self bluetoochTest];
+//    [self bluetoochTest];
+    
+    [self coreDataTest];
     
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)coreDataTest{
+    CoreDataViewController* cv = [[CoreDataViewController alloc] init];
+    self.window.rootViewController = cv;
+}
+
 
 - (void)bluetoochTest{
     BluetoothViewController* bv = [[BluetoothViewController alloc] init];
