@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Swift_LIBRARY.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>626CA3731A5144D8005DEA64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB2B7E091CFD225600C558B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
