@@ -50,6 +50,10 @@
 		BB2B7E121CFD225600C558B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2B7E101CFD225600C558B8 /* Main.storyboard */; };
 		BB2B7E141CFD225600C558B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2B7E131CFD225600C558B8 /* Assets.xcassets */; };
 		BB2B7E171CFD225600C558B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2B7E151CFD225600C558B8 /* LaunchScreen.storyboard */; };
+		BB2B7E221CFD23FC00C558B8 /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E211CFD23FC00C558B8 /* StreamViewController.m */; };
+		BB2B7E2C1CFD252900C558B8 /* HHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E251CFD252900C558B8 /* HHAlertView.m */; };
+		BB2B7E2D1CFD252900C558B8 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E281CFD252900C558B8 /* UIView+Draw.m */; };
+		BB2B7E2E1CFD252900C558B8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E2B1CFD252900C558B8 /* MBProgressHUD.m */; };
 		BBF8BF3E1CF0B95A00BA0674 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */; };
 		BBF8BF3F1CF0B95A00BA0674 /* KeyChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3D1CF0B95A00BA0674 /* KeyChainViewController.m */; };
 /* End PBXBuildFile section */
@@ -141,6 +145,15 @@
 		BB2B7E131CFD225600C558B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2B7E161CFD225600C558B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2B7E181CFD225600C558B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2B7E201CFD23FC00C558B8 /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		BB2B7E211CFD23FC00C558B8 /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		BB2B7E241CFD252900C558B8 /* HHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAlertView.h; sourceTree = "<group>"; };
+		BB2B7E251CFD252900C558B8 /* HHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAlertView.m; sourceTree = "<group>"; };
+		BB2B7E261CFD252900C558B8 /* HHAlertViewConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAlertViewConst.h; sourceTree = "<group>"; };
+		BB2B7E271CFD252900C558B8 /* UIView+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		BB2B7E281CFD252900C558B8 /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		BB2B7E2A1CFD252900C558B8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BB2B7E2B1CFD252900C558B8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BBF8BF3A1CF0B95A00BA0674 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
 		BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
@@ -237,6 +250,8 @@
 		6267801F1CBABA09001E2B8A /* UILib */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B7E231CFD252900C558B8 /* HHAlertView */,
+				BB2B7E291CFD252900C558B8 /* MBProgressHUD */,
 				626780201CBABA09001E2B8A /* Cell */,
 				626780241CBABA09001E2B8A /* UIColor */,
 				626780291CBABA09001E2B8A /* UIDevice+Hardware.h */,
@@ -379,6 +394,8 @@
 		BB06E91B1CE9B2E9000162D6 /* Socket */ = {
 			isa = PBXGroup;
 			children = (
+				BB2B7E201CFD23FC00C558B8 /* StreamViewController.h */,
+				BB2B7E211CFD23FC00C558B8 /* StreamViewController.m */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -447,6 +464,27 @@
 				BB2B7E181CFD225600C558B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB2B7E231CFD252900C558B8 /* HHAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BB2B7E241CFD252900C558B8 /* HHAlertView.h */,
+				BB2B7E251CFD252900C558B8 /* HHAlertView.m */,
+				BB2B7E261CFD252900C558B8 /* HHAlertViewConst.h */,
+				BB2B7E271CFD252900C558B8 /* UIView+Draw.h */,
+				BB2B7E281CFD252900C558B8 /* UIView+Draw.m */,
+			);
+			path = HHAlertView;
+			sourceTree = "<group>";
+		};
+		BB2B7E291CFD252900C558B8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BB2B7E2A1CFD252900C558B8 /* MBProgressHUD.h */,
+				BB2B7E2B1CFD252900C558B8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		BBF8BF381CF0B93A00BA0674 /* Localize */ = {
@@ -681,11 +719,14 @@
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
 				BB2B7DF31CFC29A600C558B8 /* StudyModel.xcdatamodeld in Sources */,
 				6267801A1CBAB9A3001E2B8A /* WebViewController.m in Sources */,
+				BB2B7E2D1CFD252900C558B8 /* UIView+Draw.m in Sources */,
+				BB2B7E2E1CFD252900C558B8 /* MBProgressHUD.m in Sources */,
 				BB06E9071CE9B229000162D6 /* NSObject+Collection.m in Sources */,
 				BB2B7E011CFC31E000C558B8 /* Card+CoreDataProperties.m in Sources */,
 				626780171CBAB8DE001E2B8A /* JKWebView.m in Sources */,
 				626780391CBABA09001E2B8A /* InfoBoxView.m in Sources */,
 				BB06E91A1CE9B2C1000162D6 /* RedPaperRequestQueue.m in Sources */,
+				BB2B7E2C1CFD252900C558B8 /* HHAlertView.m in Sources */,
 				626780351CBABA09001E2B8A /* UIColor+DHZCategory.m in Sources */,
 				BB2B7E041CFC31E000C558B8 /* Person.m in Sources */,
 				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
@@ -703,6 +744,7 @@
 				626780021CB78272001E2B8A /* README.md in Sources */,
 				BB06E9181CE9B2C1000162D6 /* RedPaperReachability.m in Sources */,
 				626780361CBABA09001E2B8A /* UIColor+DHZColor.m in Sources */,
+				BB2B7E221CFD23FC00C558B8 /* StreamViewController.m in Sources */,
 				BBF8BF3F1CF0B95A00BA0674 /* KeyChainViewController.m in Sources */,
 				626780321CBABA09001E2B8A /* NSString+Collection.m in Sources */,
 			);
@@ -843,6 +885,7 @@
 			baseConfigurationReference = 2D98098B6C78EB33ACD07D73 /* Pods-DHZ_LIBRARY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DHZ_LIBRARY/DHZ_LIBRARY.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -854,6 +897,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lzhb.DHZ-LIBRARY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DHZ_LIBRARY/NetRefer/Socket/DHZ_LIBRARY-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -862,6 +907,7 @@
 			baseConfigurationReference = 053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = DHZ_LIBRARY/DHZ_LIBRARY.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -873,6 +919,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lzhb.DHZ-LIBRARY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DHZ_LIBRARY/NetRefer/Socket/DHZ_LIBRARY-Bridging-Header.h";
 			};
 			name = Release;
 		};
