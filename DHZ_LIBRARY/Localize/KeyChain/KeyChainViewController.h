@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 #import "KeyChain.h"
 
-@interface KeyChainViewController : UIViewController
+@interface KeyChainViewController : BaseViewController
 
 + (void)savePassWord:(NSString *)password;
 

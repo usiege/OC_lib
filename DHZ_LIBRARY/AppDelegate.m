@@ -7,9 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RunLoopViewController.h"
-#import "BluetoothViewController.h"
-#import "CoreDataViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,34 +22,14 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    //[self touchTest];
-    
-    //[self runloopTest];
-    
-//    [self bluetoochTest];
-    
-    [self coreDataTest];
+    MainViewController* main = [[MainViewController alloc] init];
+    UINavigationController* nv = [[UINavigationController alloc] initWithRootViewController:main];
+    self.window.rootViewController = nv;
     
     [self.window makeKeyAndVisible];
     return YES;
 }
 
-- (void)coreDataTest{
-    CoreDataViewController* cv = [[CoreDataViewController alloc] init];
-    self.window.rootViewController = cv;
-}
-
-
-- (void)bluetoochTest{
-    BluetoothViewController* bv = [[BluetoothViewController alloc] init];
-    self.window.rootViewController = bv;
-}
-
-- (void)runloopTest
-{
-    RunLoopViewController* rvc = [[RunLoopViewController alloc] init];
-    self.window.rootViewController = rvc;
-}
 
 - (void)touchTest
 {
@@ -93,6 +71,7 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
 
 #pragma mark - Core Data stack
 
@@ -160,7 +139,6 @@
 }
 
 #pragma mark - Core Data Saving support
-
 - (void)saveContext {
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {

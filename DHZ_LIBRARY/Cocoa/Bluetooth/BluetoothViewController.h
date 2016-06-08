@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface BluetoothViewController : UIViewController
+@interface BluetoothViewController : BaseViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *testBtn;
 

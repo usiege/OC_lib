@@ -54,19 +54,11 @@
 		BB2B7E2C1CFD252900C558B8 /* HHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E251CFD252900C558B8 /* HHAlertView.m */; };
 		BB2B7E2D1CFD252900C558B8 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E281CFD252900C558B8 /* UIView+Draw.m */; };
 		BB2B7E2E1CFD252900C558B8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2B7E2B1CFD252900C558B8 /* MBProgressHUD.m */; };
+		BBEF88E31D07FE7E00848AD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEF88E21D07FE7E00848AD0 /* MainViewController.m */; };
+		BBEF88E61D07FF0800848AD0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEF88E51D07FF0800848AD0 /* BaseViewController.m */; };
 		BBF8BF3E1CF0B95A00BA0674 /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */; };
 		BBF8BF3F1CF0B95A00BA0674 /* KeyChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF8BF3D1CF0B95A00BA0674 /* KeyChainViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		626CA3751A5144D8005DEA64 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 626CA3561A5144D8005DEA64 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 626CA35D1A5144D8005DEA64;
-			remoteInfo = DHZ_LIBRARY;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		053A491C242B9535C0AD77A5 /* Pods-DHZ_LIBRARY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHZ_LIBRARY.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHZ_LIBRARY/Pods-DHZ_LIBRARY.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +97,6 @@
 		626CA3691A5144D8005DEA64 /* DHZ_LIBRARY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DHZ_LIBRARY.xcdatamodel; sourceTree = "<group>"; };
 		626CA36B1A5144D8005DEA64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		626CA36E1A5144D8005DEA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		626CA3741A5144D8005DEA64 /* DHZ_LIBRARYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHZ_LIBRARYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC85B7846893C3EAA5A20C9 /* libPods-DHZ_LIBRARY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHZ_LIBRARY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB06E9051CE9B229000162D6 /* NSObject+Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Collection.h"; sourceTree = "<group>"; };
 		BB06E9061CE9B229000162D6 /* NSObject+Collection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Collection.m"; sourceTree = "<group>"; };
@@ -155,6 +146,10 @@
 		BB2B7E2A1CFD252900C558B8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		BB2B7E2B1CFD252900C558B8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BBEF88E11D07FE7E00848AD0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BBEF88E21D07FE7E00848AD0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BBEF88E41D07FF0800848AD0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BBEF88E51D07FF0800848AD0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BBF8BF3A1CF0B95A00BA0674 /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
 		BBF8BF3B1CF0B95A00BA0674 /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
 		BBF8BF3C1CF0B95A00BA0674 /* KeyChainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainViewController.h; sourceTree = "<group>"; };
@@ -169,13 +164,6 @@
 				BB2B7DF51CFC2B9000C558B8 /* CoreData.framework in Frameworks */,
 				73DAE3216CB5A89B2DADAEAA /* libPods-DHZ_LIBRARY.a in Frameworks */,
 				BB2B33B01CF1F06C00823C23 /* CloudKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		626CA3711A5144D8005DEA64 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */,
-				626CA3741A5144D8005DEA64 /* DHZ_LIBRARYTests.xctest */,
 				BB2B7E0A1CFD225600C558B8 /* Swift_LIBRARY.app */,
 			);
 			name = Products;
@@ -323,6 +310,10 @@
 				6251CBA71AA7042400AD5CEC /* Macro.h */,
 				626CA3651A5144D8005DEA64 /* AppDelegate.h */,
 				626CA3661A5144D8005DEA64 /* AppDelegate.m */,
+				BBEF88E11D07FE7E00848AD0 /* MainViewController.h */,
+				BBEF88E21D07FE7E00848AD0 /* MainViewController.m */,
+				BBEF88E41D07FF0800848AD0 /* BaseViewController.h */,
+				BBEF88E51D07FF0800848AD0 /* BaseViewController.m */,
 				BBC4D6221CE2D00A00650C11 /* PrefixHeader.pch */,
 				BBF8BF381CF0B93A00BA0674 /* Localize */,
 				BB06E99E1CEB0CFF000162D6 /* Cocoa */,
@@ -540,24 +531,6 @@
 			productReference = 626CA35E1A5144D8005DEA64 /* DHZ_LIBRARY.app */;
 			productType = "com.apple.product-type.application";
 		};
-		626CA3731A5144D8005DEA64 /* DHZ_LIBRARYTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 626CA3811A5144D8005DEA64 /* Build configuration list for PBXNativeTarget "DHZ_LIBRARYTests" */;
-			buildPhases = (
-				626CA3701A5144D8005DEA64 /* Sources */,
-				626CA3711A5144D8005DEA64 /* Frameworks */,
-				626CA3721A5144D8005DEA64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				626CA3761A5144D8005DEA64 /* PBXTargetDependency */,
-			);
-			name = DHZ_LIBRARYTests;
-			productName = DHZ_LIBRARYTests;
-			productReference = 626CA3741A5144D8005DEA64 /* DHZ_LIBRARYTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		BB2B7E091CFD225600C558B8 /* Swift_LIBRARY */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB2B7E191CFD225600C558B8 /* Build configuration list for PBXNativeTarget "Swift_LIBRARY" */;
@@ -597,10 +570,6 @@
 							};
 						};
 					};
-					626CA3731A5144D8005DEA64 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 626CA35D1A5144D8005DEA64;
-					};
 					BB2B7E091CFD225600C558B8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -620,7 +589,6 @@
 			projectRoot = "";
 			targets = (
 				626CA35D1A5144D8005DEA64 /* DHZ_LIBRARY */,
-				626CA3731A5144D8005DEA64 /* DHZ_LIBRARYTests */,
 				BB2B7E091CFD225600C558B8 /* Swift_LIBRARY */,
 			);
 		};
@@ -638,13 +606,6 @@
 				626CA36C1A5144D8005DEA64 /* Images.xcassets in Resources */,
 				62677F801CA6A2BF001E2B8A /* Storyboard.storyboard in Resources */,
 				626780341CBABA09001E2B8A /* DownloadCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		626CA3721A5144D8005DEA64 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB06E9161CE9B2C1000162D6 /* DownloadOperation.m in Sources */,
+				BBEF88E61D07FF0800848AD0 /* BaseViewController.m in Sources */,
 				BBF8BF3E1CF0B95A00BA0674 /* KeyChain.m in Sources */,
 				BB06E9A21CEB0EEE000162D6 /* BluetoothViewController.m in Sources */,
 				626CA3671A5144D8005DEA64 /* AppDelegate.m in Sources */,
@@ -731,6 +693,7 @@
 				BB2B7E041CFC31E000C558B8 /* Person.m in Sources */,
 				626780371CBABA09001E2B8A /* UIDevice+Hardware.m in Sources */,
 				626CA3641A5144D8005DEA64 /* main.m in Sources */,
+				BBEF88E31D07FE7E00848AD0 /* MainViewController.m in Sources */,
 				6267803A1CBABA09001E2B8A /* UserInfoView.m in Sources */,
 				BB06E9171CE9B2C1000162D6 /* OperationViewController.m in Sources */,
 				626780331CBABA09001E2B8A /* DownloadCell.m in Sources */,
@@ -750,13 +713,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		626CA3701A5144D8005DEA64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB2B7E061CFD225600C558B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -767,14 +723,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		626CA3761A5144D8005DEA64 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 626CA35D1A5144D8005DEA64 /* DHZ_LIBRARY */;
-			targetProxy = 626CA3751A5144D8005DEA64 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		626CA36D1A5144D8005DEA64 /* LaunchScreen.xib */ = {
@@ -899,6 +847,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DHZ_LIBRARY/NetRefer/Socket/DHZ_LIBRARY-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -920,40 +869,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DHZ_LIBRARY/NetRefer/Socket/DHZ_LIBRARY-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		626CA3821A5144D8005DEA64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DHZ_LIBRARYTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHZ_LIBRARY.app/DHZ_LIBRARY";
-			};
-			name = Debug;
-		};
-		626CA3831A5144D8005DEA64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DHZ_LIBRARYTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHZ_LIBRARY.app/DHZ_LIBRARY";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1013,15 +929,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		626CA3811A5144D8005DEA64 /* Build configuration list for PBXNativeTarget "DHZ_LIBRARYTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				626CA3821A5144D8005DEA64 /* Debug */,
-				626CA3831A5144D8005DEA64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BB2B7E191CFD225600C558B8 /* Build configuration list for PBXNativeTarget "Swift_LIBRARY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1029,6 +936,7 @@
 				BB2B7E1B1CFD225600C558B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

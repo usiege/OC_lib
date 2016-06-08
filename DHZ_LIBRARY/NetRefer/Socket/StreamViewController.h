@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface StreamViewController : UIViewController
+@interface StreamViewController : BaseViewController
 
 @end
