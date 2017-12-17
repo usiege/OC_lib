@@ -4,30 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DHZ_LIBRARY.xcscheme</key>
+		<key>CocoaAsyncSocket.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
-		<key>Swift_LIBRARY.xcscheme</key>
+		<key>Pods-DHZ_LIBRARY.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>2</integer>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>626CA35D1A5144D8005DEA64</key>
+		<key>0137D89B780928DF8607ECEF9A3FF00E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>626CA3731A5144D8005DEA64</key>
+		<key>48D9BC987B0CC617087AA5EE0E6DF233</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BB2B7E091CFD225600C558B8</key>
+		<key>48F687CDE9990BD471D7883061F7E5D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
