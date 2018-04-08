@@ -826,6 +826,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/UXReader/PDFium",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tal.UXReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -853,6 +854,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/UXReader/PDFium",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tal.UXReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
