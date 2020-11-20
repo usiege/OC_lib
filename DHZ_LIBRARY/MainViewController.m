@@ -90,7 +90,8 @@
                            @"Bluetooth",
                            @"Stream",
                            @"Operation",
-                           @"WebView"
+                           @"WebView",
+                           @"KVO"
                            ];
     
     self.titles = @[mapTitles];
@@ -103,7 +104,8 @@
                                @"BluetoothViewController",
                                @"StreamViewController",
                                @"OperationViewController",
-                               @"WebViewController"
+                               @"WebViewController",
+                               @"KVOViewController",
                                ];
     
     self.classNames = @[mapClassNames];

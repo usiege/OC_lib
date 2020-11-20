@@ -26,4 +26,8 @@
 # define DLog(...);
 #endif
 
+
+#import <AFNetworking/AFNetworking.h>
+#import "MBProgressHUD.h"
+
 #endif /* PrefixHeader_pch */
